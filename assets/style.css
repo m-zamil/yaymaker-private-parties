@@ -200,7 +200,7 @@ h3.section__title {
   position: relative;
   max-width: 428px;
   padding: 0 16px 0;
-  margin-bottom: 76px;
+  margin-bottom: 0;
 }
 .hero__wrapper {
   display: flex;
@@ -240,6 +240,7 @@ h3.section__title {
   position: relative;
   width: 50%;
   margin-left: -16px;
+  min-height: 370px;
 }
 .hero__image img {
   position: absolute;
