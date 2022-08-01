@@ -17,6 +17,9 @@ $(document).ready(function () {
       },
     },
   });
+});
+
+window.onload = function () {
   //faq's accordion script
   const items = document.querySelectorAll(".accordion button");
   function toggleAccordion() {
@@ -29,4 +32,4 @@ $(document).ready(function () {
     }
   }
   items.forEach((item) => item.addEventListener("click", toggleAccordion));
-});
+};
