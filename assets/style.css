@@ -65,9 +65,14 @@ img {
   image-rendering: -webkit-optimize-contrast;
   -ms-interpolation-mode: nearest-neighbor;
 }
-li {
+
+main ul li {
   font-weight: 400;
   margin: 0;
+  line-height: normal;
+}
+main ul {
+  margin: 16px 0;
 }
 
 .primary__btn {
@@ -177,6 +182,7 @@ h3.section__title {
 /* --Hero Section-- */
 .hero {
   overflow-x: hidden;
+  position: x;
 }
 .hero:after {
   content: "";
@@ -279,6 +285,7 @@ h3.section__title {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  line-height: normal;
 }
 .intro li::before {
   content: "";
@@ -514,6 +521,8 @@ h3.section__title {
   top: 19px;
   list-style: none;
   width: 280px;
+  padding-left: 40px;
+  margin: 16px 0;
 }
 .planning__list li {
   font-size: 14px;
