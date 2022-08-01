@@ -182,7 +182,7 @@ h3.section__title {
 /* --Hero Section-- */
 .hero {
   overflow-x: hidden;
-  position: x;
+  position: relative;
 }
 .hero:after {
   content: "";
@@ -393,6 +393,10 @@ h3.section__title {
 }
 .works__content .section__title {
   margin-bottom: 16px;
+  font-size: 30px;
+}
+.works__content .section__subtitle {
+  font-size: 12px;
 }
 .works__cta a.primary__btn {
   min-width: 160px;
@@ -429,21 +433,23 @@ h3.section__title {
   }
   .works__wrapper {
     flex-wrap: nowrap;
+    justify-content: space-around;
   }
   .works__image {
     order: 2;
     position: relative;
     width: 50%;
+    margin: 30px 0;
   }
   .works__image img {
     position: absolute;
     top: 0;
-    left: 0;
-    max-width: 350px;
+    left: -5px;
+    max-width: 276px;
   }
   .works__content {
-    max-width: 236px;
-    min-width: 236px;
+    max-width: 200px;
+    min-width: 200px;
   }
   .works__cta {
     margin-bottom: 0;
@@ -829,7 +835,7 @@ h3.section__title {
 
   .primary__btn {
     font-size: 15px;
-    padding: 10px 22px;
+    padding: 10px 30px;
   }
 
   .container {
@@ -957,6 +963,10 @@ h3.section__title {
   }
   .works__content .section__title {
     margin-top: 0;
+    font-size: 45px;
+  }
+  .works__content .section__subtitle {
+    font-size: 15px;
   }
   .works__content {
     max-width: 400px;
@@ -969,6 +979,7 @@ h3.section__title {
     max-width: 440px;
     top: 50%;
     transform: translateY(-50%);
+    left: 0;
   }
   .works__cta {
     display: none;
@@ -977,6 +988,7 @@ h3.section__title {
   .planning {
     position: relative;
     background-color: transparent;
+    overflow: visible;
   }
   .planning::after {
     content: "";
@@ -991,6 +1003,8 @@ h3.section__title {
   }
   .planning .section__title {
     display: block;
+    margin: 16px auto;
+    font-size: 53px;
   }
   .planning .section__title span {
     margin: 0;
@@ -1004,7 +1018,8 @@ h3.section__title {
     display: flex;
     justify-content: space-evenly;
     max-width: 960px;
-    margin: 54px auto;
+    margin: 0 auto;
+    margin-bottom: 48px;
   }
   .planning__image.planning-1::after {
     transform: scale(0.55) rotate(90deg);
@@ -1024,8 +1039,8 @@ h3.section__title {
     width: 400px;
   }
   .planning__image .pencil-img {
-    width: 200px;
-    top: -140px;
+    width: 250px;
+    top: -245px;
     left: -76px;
   }
   .planning__list {
@@ -1128,6 +1143,9 @@ h3.section__title {
     position: absolute;
     bottom: 44px;
   }
+  .info__cta a.primary__btn {
+    padding: 10px 30px;
+  }
   /* -- FAQ's -- */
   .faqs {
     margin-bottom: 64px;
@@ -1176,5 +1194,8 @@ h3.section__title {
   }
   .waiting .section__title {
     display: block;
+  }
+  .waiting__cta a.primary__btn {
+    padding: 10px 30px;
   }
 }
