@@ -304,7 +304,7 @@ h3.section__title {
   background-color: var(--off-white);
 }
 .options .container {
-  max-width: initial;
+  max-width: 428px;
   padding: 16px 0;
 }
 .options .section__title {
@@ -925,6 +925,9 @@ h3.section__title {
     margin: 32px 0;
   }
   /* --Options-- */
+  .options .container {
+    max-width: 1152px;
+  }
   .options .section__title {
     display: block;
   }

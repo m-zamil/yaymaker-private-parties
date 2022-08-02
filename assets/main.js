@@ -14,7 +14,12 @@ window.onload = function () {
         },
         960: {
           items: 3,
-          stagePadding: 160,
+          margin: 20,
+          stagePadding: 100,
+        },
+        1023: {
+          margin: 30,
+          stagePadding: 120,
         },
       },
     });
